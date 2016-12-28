@@ -1,0 +1,4 @@
+name: OnTheRun
+version: ${project.version}
+main: com.github.syuchan1005.ontherun.OnTheRun
+authors: [syuchan1005]

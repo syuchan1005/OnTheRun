@@ -1,0 +1,20 @@
+name: [String]
+
+pages:
+  - | [String]
+
+achievement:
+  condition:
+    Type: [String]
+      ︙
+  reward:
+    items:
+      - [ItemName]
+    effects:
+      [EffectType]:
+          duration: [int]
+          amplifier: [int]
+          ambient: [boolean]
+          particles: [boolean]
+          color: [String]
+      ︙

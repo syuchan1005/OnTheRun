@@ -1,0 +1,19 @@
+name: [String]
+
+area:
+  start: [Location]
+  end: [Location]
+
+jail:
+  start: [Location]
+  end: [Location]
+
+chests:
+  [Location]:
+    group: [String - Item.group]
+    random:
+      enable: [boolean]
+      min: [int]
+      max: [int]
+  ︙
+

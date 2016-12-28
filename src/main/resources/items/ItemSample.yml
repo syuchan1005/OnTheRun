@@ -1,0 +1,13 @@
+name: [String]
+material: [String]
+durability: [short]
+lore: [|3 String]
+group: [String]
+effects:
+    [EffectType]:
+        duration: [int]
+        amplifier: [int]
+        ambient: [boolean]
+        particles: [boolean]
+        color: [String]
+    ︙
